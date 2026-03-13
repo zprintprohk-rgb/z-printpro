@@ -3,18 +3,16 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // Vercel 部署优化配置
   images: {
     formats: ['image/avif', 'image/webp'], // SEO：图片格式优化
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '*.supabase.co',
-      }
+      { protocol: 'https', hostname: '**' }, // 允许所有 HTTPS 图片
     ],
   },
   compress: true,
   poweredByHeader: false, // SEO：隐藏技术栈
+  staticPageGenerationTimeout: 300, // 静态页面生成超时时间（秒）
   experimental: {
     optimizeCss: true, // 需要 critters 包（CSS 内联优化）
     scrollRestoration: true,

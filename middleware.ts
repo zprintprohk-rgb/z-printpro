@@ -16,5 +16,5 @@ export const config = {
   ],
   // Next.js 14 Edge Runtime（香港+东京+新加坡节点）
   runtime: 'experimental-edge',
-  regions: ['hkg1', 'tyo1', 'sin1'] // 覆盖香港（主场）、日本、东南亚
+  regions: ['hkg1', 'hnd1', 'sin1'] // 覆盖香港（主场）、日本、东南亚
 };
