@@ -1,0 +1,87 @@
+# Netlify 配置文件
+# 用於部署 Next.js 靜態導出 + Netlify Functions
+
+[build]
+  # 構建命令
+  command = "npm run build"
+  
+  # 發布目錄 (與 next.config.js 的 distDir 一致)
+  publish = "dist"
+  
+  # Functions 目錄
+  functions = "netlify/functions"
+
+[build.environment]
+  # Node.js 版本
+  NODE_VERSION = "18"
+  # 防止 npm 依赖冲突
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# ==========================================
+# API 路由（保留原有配置）
+# ==========================================
+
+# 通用 API 路由轉發
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Stripe Webhook 專用路徑（保留）
+[[redirects]]
+  from = "/api/webhooks/stripe"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200
+
+# ==========================================
+# 國際化路由支持（關鍵修復）
+# ==========================================
+
+# 中文路由
+[[redirects]]
+  from = "/zh-hk/*"
+  to = "/zh-hk/index.html"
+  status = 200
+
+# 英文路由  
+[[redirects]]
+  from = "/en/*"
+  to = "/en/index.html"
+  status = 200
+
+# ==========================================
+# SPA 回退（必須放在最後）
+# ==========================================
+
+# 所有其他路徑都指向對應語言的 index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ==========================================
+# 緩存優化
+# ==========================================
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# CORS 頭（Functions 用）
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"

@@ -1,0 +1,25 @@
+import { getRequestConfig } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+
+export const locales = ['zh-hk', 'en'] as const;
+export const defaultLocale = 'zh-hk' as const;
+export type Locale = (typeof locales)[number];
+
+export const localeToHreflang: Record<Locale, string> = {
+  'zh-hk': 'zh-HK',
+  'en': 'en'
+};
+
+// 修复：使用新的 requestLocale API
+export default getRequestConfig(async ({ requestLocale }) => {
+  // 修复：await requestLocale 替代 locale 参数
+  const locale = await requestLocale;
+  
+  if (!locale || !locales.includes(locale as Locale)) notFound();
+
+  return {
+    messages: (await import(`./messages/${locale}.json`)).default,
+    timeZone: 'Asia/Hong_Kong',
+    locale: locale,
+  };
+});

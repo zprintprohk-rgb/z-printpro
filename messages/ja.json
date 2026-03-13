@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "language": "日本語",
+    "region": "日本"
+  },
+  "nav": {
+    "home": "ホーム",
+    "products": "製品サービス",
+    "aiStudio": "AI カスタマイズ ✨",
+    "specialOffers": "送料無料セット 🚚",
+    "designGuide": "デザインガイド",
+    "blog": "印刷知識",
+    "contact": "お問い合わせ",
+    "account": "マイアカウント",
+    "cart": "カート",
+    "faq": "よくある質問",
+    "shipping": "配送方法",
+    "payment": "お支払い方法"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "search": "検索",
+    "filter": "絞り込み",
+    "sort": "並び替え",
+    "viewAll": "すべて見る →",
+    "learnMore": "詳細を見る",
+    "getStarted": "今すぐ始める",
+    "contactUs": "お問い合わせ",
+    "callNow": "今すぐ電話",
+    "whatsapp": "WhatsApp で問い合わせ",
+    "email": "メールで問い合わせ",
+    "back": "戻る"
+  },
+  "product": {
+    "title": "製品",
+    "categories": "製品カテゴリ",
+    "allProducts": "すべての製品",
+    "featured": "おすすめ製品",
+    "newArrival": "新着製品",
+    "bestseller": "売れ筋製品",
+    "minQuantity": "最小注文数",
+    "price": "価格",
+    "from": "から",
+    "perUnit": "1個あたり",
+    "freeDesign": "無料デザイン",
+    "sameDay": "当日受取",
+    "nextDay": "翌日受取",
+    "fastDelivery": "急速配送",
+    "addToCart": "カートに追加",
+    "buyNow": "今すぐ購入",
+    "getQuote": "見積もりを取得",
+    "customize": "今すぐカスタマイズ",
+    "viewDetails": "詳細を見る",
+    "inStock": "在庫あり",
+    "outOfStock": "在庫切れ",
+    "lowStock": "残りわずか",
+    "specifications": "製品仕様",
+    "description": "製品説明",
+    "reviews": "お客様のレビュー",
+    "relatedProducts": "関連製品",
+    "youMayAlsoLike": "こちらもおすすめ",
+    "viewAll": "すべて見る",
+    "items": "点の製品",
+    "quality": "品質保証",
+    "noProducts": "このカテゴリには製品がありません"
+  },
+  "cart": {
+    "title": "カート",
+    "empty": "カートは空です",
+    "emptyMessage": "お気に入りの製品を選びましょう！",
+    "continueShopping": "買い物を続ける",
+    "item": "点の商品",
+    "items": "点の商品",
+    "quantity": "数量",
+    "subtotal": "小計",
+    "shipping": "送料",
+    "freeShipping": "送料無料",
+    "discount": "割引",
+    "total": "合計",
+    "checkout": "レジへ進む",
+    "remove": "削除",
+    "update": "更新",
+    "clear": "カートを空にする",
+    "addNote": "備考を追加"
+  },
+  "checkout": {
+    "title": "お会計",
+    "shippingInfo": "配送情報",
+    "paymentMethod": "お支払い方法",
+    "orderSummary": "注文内容",
+    "placeOrder": "注文を確定",
+    "processing": "処理中...",
+    "success": "注文が完了しました！",
+    "successMessage": "ご注文ありがとうございます。順次処理いたします。",
+    "name": "お名前",
+    "phone": "電話番号",
+    "email": "メールアドレス",
+    "address": "住所",
+    "city": "市区町村",
+    "district": "地区",
+    "postalCode": "郵便番号",
+    "country": "国/地域",
+    "sameAsBilling": "配送先と請求先が同じ",
+    "addAddress": "新しい住所を追加",
+    "selectAddress": "住所を選択"
+  },
+  "shipping": {
+    "title": "配送情報",
+    "methods": "配送方法",
+    "standard": "標準配送",
+    "express": "速達配送",
+    "sameDay": "当日配送",
+    "freeShipping": "送料無料",
+    "freeShippingThreshold": "HK$100以上で送料無料",
+    "estimatedDelivery": "お届け予定",
+    "trackOrder": "注文を追跡",
+    "sfExpress": "SFエクスプレス",
+    "toHK": "香港への配送",
+    "toGlobal": "国際配送"
+  },
+  "payment": {
+    "title": "お支払い方法",
+    "alipay": "Alipay",
+    "wechatPay": "WeChat Pay",
+    "fps": "FPS",
+    "creditCard": "クレジットカード",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "secure": "安全な暗号化決済",
+    "processingFee": "手数料"
+  },
+  "aiStudio": {
+    "title": "AI カスタムスタジオ",
+    "subtitle": "AIであなたの写真を芸術品に",
+    "description": "写真をアップロードするとAIが自動で最適化し、ワンクリックでオリジナル印刷品を作成",
+    "steps": "アップロード,処理,ダウンロード",
+    "upload": {
+      "title": "写真をアップロード",
+      "dragDrop": "ここに写真をドラッグ＆ドロップ",
+      "orClick": "またはクリックしてファイルを選択",
+      "supportedFormats": "JPG、PNG、PDF形式対応、最大50MB",
+      "tips": "ヒント：高解像度の写真ほど効果が高くなります"
+    },
+    "enhance": {
+      "title": "AI インテリジェント最適化",
+      "options": "最適化オプション",
+      "upscale": "インテリジェント拡大",
+      "colorCorrection": "色彩補正",
+      "backgroundRemoval": "背景除去",
+      "styleTransfer": "スタイル変換",
+      "processing": "AI 処理中...",
+      "preview": "プレビュー"
+    },
+    "customize": {
+      "title": "パーソナライズデザイン",
+      "addText": "テキストを追加",
+      "chooseStyle": "スタイルを選択",
+      "filters": "フィルターエフェクト",
+      "frames": "フレーム選択"
+    },
+    "preview": {
+      "title": "プレビュー",
+      "original": "元の画像",
+      "enhanced": "最適化後",
+      "mockup": "印刷効果",
+      "satisfied": "この効果に満足ですか？",
+      "tryAgain": "再調整"
+    },
+    "selectSize": "サイズを選択",
+    "selectQuantity": "数量を選択",
+    "addToCart": "カートに追加",
+    "startOver": "最初からやり直す"
+  },
+  "specialOffers": {
+    "title": "送料無料セット特集",
+    "subtitle": "3つの固定サイズ、香港全域SFエクスプレス直送送料無料！",
+    "packages": {
+      "small": {
+        "name": "スモールセット",
+        "size": "300 x 440 mm",
+        "description": "小型ポスター、チラシ、メニューに最適"
+      },
+      "medium": {
+        "name": "ミディアムセット",
+        "size": "350 x 500 mm",
+        "description": "中型ポスター、宣伝チラシに最適",
+        "popular": "人気No.1"
+      },
+      "large": {
+        "name": "ラージセット",
+        "size": "510 x 730 mm",
+        "description": "大型ポスター、背景ボードに最適"
+      }
+    },
+    "features": {
+      "freeShipping": "香港全域送料無料",
+      "fastDelivery": "急速配送",
+      "freeDesign": "無料デザイン",
+      "waterproof": "防水ラミネート"
+    },
+    "howItWorks": "ご注文方法",
+    "faq": "よくある質問"
+  },
+  "seo": {
+    "homeTitle": "Z-PrintPro | 香港のプロ印刷会社 | 名刺/チラシ/紙袋/パッケージ印刷 | 無料デザイン＋24時間出荷",
+    "homeDescription": "Z-PrintProは香港のプロ印刷会社です。名刺、チラシ、紙袋、パッケージ、ステッカー、ポスター、カタログ、封筒などの印刷サービスを提供。無料プロデザイン、24時間急速出荷、香港全域SFエクスプレス直送。",
+    "keywords": "香港印刷会社, 名刺印刷, チラシ印刷, 紙袋印刷, パッケージ印刷, ステッカー印刷, ポスター印刷, カタログ印刷, 封筒印刷, デジタル印刷, 香港印刷, 24時間印刷, 無料デザイン印刷"
+  },
+  "footer": {
+    "about": "Z-PrintProについて",
+    "products": {
+      "title": "製品カテゴリ"
+    },
+    "support": {
+      "title": "カスタマーサポート"
+    },
+    "legal": "法律情報",
+    "newsletter": {
+      "title": "メルマガ登録",
+      "description": "最新のお得情報と印刷ニュースを入手",
+      "placeholder": "メールアドレスを入力",
+      "subscribe": "登録"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "phone": "電話",
+      "email": "メール",
+      "address": "住所",
+      "hours": "営業時間"
+    },
+    "copyright": "© {year} Z-PrintPro. All rights reserved."
+  },
+  "errors": {
+    "404": {
+      "title": "ページが見つかりません",
+      "message": "申し訳ございませんが、お探しのページは存在しません。",
+      "backHome": "ホームに戻る"
+    },
+    "500": {
+      "title": "サーバーエラー",
+      "message": "申し訳ございませんが、サーバーエラーが発生しました。しばらくしてからお試しください。",
+      "retry": "再読み込み"
+    },
+    "generic": {
+      "title": "エラーが発生しました",
+      "message": "申し訳ございませんが、問題が発生しました。しばらくしてからお試しください。"
+    }
+  }
+}

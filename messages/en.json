@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "language": "English",
+    "region": "Global"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "aiStudio": "AI Studio ✨",
+    "specialOffers": "Free Shipping 🚚",
+    "designGuide": "Design Guide",
+    "blog": "Printing Blog",
+    "contact": "Contact Us",
+    "account": "My Account",
+    "cart": "Cart",
+    "faq": "FAQ",
+    "shipping": "Shipping",
+    "payment": "Payment"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewAll": "View All →",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp Us",
+    "email": "Email Us",
+    "back": "Back"
+  },
+  "product": {
+    "title": "Products",
+    "categories": "Product Categories",
+    "allProducts": "All Products",
+    "featured": "Featured Products",
+    "newArrival": "New Arrivals",
+    "bestseller": "Bestsellers",
+    "minQuantity": "Minimum Order",
+    "price": "Price",
+    "from": "from",
+    "perUnit": "per unit",
+    "freeDesign": "Free Design",
+    "sameDay": "Same Day Pickup",
+    "nextDay": "Next Day Delivery",
+    "fastDelivery": "Fast Delivery",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "getQuote": "Get Quote",
+    "customize": "Customize Now",
+    "viewDetails": "View Details",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock",
+    "specifications": "Specifications",
+    "description": "Description",
+    "reviews": "Customer Reviews",
+    "relatedProducts": "Related Products",
+    "youMayAlsoLike": "You May Also Like",
+    "viewAll": "View All",
+    "items": "items",
+    "quality": "Quality Guaranteed",
+    "noProducts": "No products in this category"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptyMessage": "Start shopping for your favorite products!",
+    "continueShopping": "Continue Shopping",
+    "item": "item",
+    "items": "items",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "freeShipping": "Free Shipping",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove",
+    "update": "Update",
+    "clear": "Clear Cart",
+    "addNote": "Add Note"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingInfo": "Shipping Information",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "processing": "Processing...",
+    "success": "Order Submitted Successfully!",
+    "successMessage": "Thank you for your order. We will process it shortly.",
+    "name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "city": "City",
+    "district": "District",
+    "postalCode": "Postal Code",
+    "country": "Country/Region",
+    "sameAsBilling": "Shipping address same as billing",
+    "addAddress": "Add New Address",
+    "selectAddress": "Select Address"
+  },
+  "shipping": {
+    "title": "Shipping Information",
+    "methods": "Shipping Methods",
+    "standard": "Standard Shipping",
+    "express": "Express Shipping",
+    "sameDay": "Same Day Delivery",
+    "freeShipping": "Free Shipping",
+    "freeShippingThreshold": "Free shipping over $50",
+    "estimatedDelivery": "Estimated Delivery",
+    "trackOrder": "Track Order",
+    "sfExpress": "SF Express",
+    "toHK": "Shipping to Hong Kong",
+    "toGlobal": "International Shipping"
+  },
+  "payment": {
+    "title": "Payment Methods",
+    "alipay": "Alipay",
+    "wechatPay": "WeChat Pay",
+    "fps": "FPS",
+    "creditCard": "Credit Card",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "secure": "Secure Encrypted Payment",
+    "processingFee": "Processing Fee"
+  },
+  "aiStudio": {
+    "title": "AI Studio",
+    "subtitle": "Transform Your Photos into Art with AI",
+    "description": "Upload your photo, let AI enhance it, and customize your unique print in one click",
+    "steps": "Upload,Process,Download",
+    "upload": {
+      "title": "Upload Your Photo",
+      "dragDrop": "Drag and drop your photo here",
+      "orClick": "or click to select file",
+      "supportedFormats": "Supports JPG, PNG, PDF formats, max 50MB",
+      "tips": "Tip: Higher resolution photos work better"
+    },
+    "enhance": {
+      "title": "AI Smart Enhancement",
+      "options": "Enhancement Options",
+      "upscale": "AI Upscale",
+      "colorCorrection": "Color Correction",
+      "backgroundRemoval": "Background Removal",
+      "styleTransfer": "Style Transfer",
+      "processing": "AI Processing...",
+      "preview": "Preview Effect"
+    },
+    "customize": {
+      "title": "Customize Design",
+      "addText": "Add Text",
+      "chooseStyle": "Choose Style",
+      "filters": "Filter Effects",
+      "frames": "Frame Selection"
+    },
+    "preview": {
+      "title": "Preview Effect",
+      "original": "Original",
+      "enhanced": "Enhanced",
+      "mockup": "Print Preview",
+      "satisfied": "Satisfied with this result?",
+      "tryAgain": "Adjust Again"
+    },
+    "selectSize": "Select Size",
+    "selectQuantity": "Select Quantity",
+    "addToCart": "Add to Cart",
+    "startOver": "Start Over"
+  },
+  "specialOffers": {
+    "title": "Free Shipping Packages",
+    "subtitle": "Three fixed sizes with free SF Express delivery across Hong Kong!",
+    "packages": {
+      "small": {
+        "name": "Small Package",
+        "size": "300 x 440 mm",
+        "description": "Perfect for small posters, flyers, menus"
+      },
+      "medium": {
+        "name": "Medium Package",
+        "size": "350 x 500 mm",
+        "description": "Ideal for medium posters, promotional flyers",
+        "popular": "Most Popular"
+      },
+      "large": {
+        "name": "Large Package",
+        "size": "510 x 730 mm",
+        "description": "Great for large posters, backdrop banners"
+      }
+    },
+    "features": {
+      "freeShipping": "Free Shipping",
+      "fastDelivery": "Fast Delivery",
+      "freeDesign": "Free Design",
+      "waterproof": "Waterproof Lamination"
+    },
+    "howItWorks": "How It Works",
+    "faq": "FAQ"
+  },
+  "seo": {
+    "homeTitle": "Z-PrintPro | Professional Printing Services Hong Kong | Business Cards/Flyers/Bags/Boxes | Free Design + 24H Delivery",
+    "homeDescription": "Z-PrintPro is Hong Kong's professional printing company offering business cards, flyers, paper bags, packaging boxes, stickers, posters, brochures, and more. Free professional design, 24-hour express delivery, island-wide SF Express shipping.",
+    "keywords": "Hong Kong printing, business card printing, flyer printing, paper bag printing, packaging printing, sticker printing, poster printing, brochure printing, envelope printing, digital printing, large format printing, same day printing, free design"
+  },
+  "footer": {
+    "about": "About Z-PrintPro",
+    "products": {
+      "title": "Products"
+    },
+    "support": {
+      "title": "Customer Support"
+    },
+    "legal": "Legal Information",
+    "newsletter": {
+      "title": "Subscribe",
+      "description": "Get the latest offers and printing tips",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Business Hours"
+    },
+    "copyright": "© {year} Z-PrintPro. All rights reserved."
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "Sorry, the page you're looking for doesn't exist.",
+      "backHome": "Back to Home"
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "Sorry, something went wrong on our server. Please try again later.",
+      "retry": "Reload"
+    },
+    "generic": {
+      "title": "An Error Occurred",
+      "message": "Sorry, something went wrong. Please try again later."
+    }
+  }
+}

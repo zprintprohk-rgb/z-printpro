@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "language": "繁體中文",
+    "region": "香港"
+  },
+  "nav": {
+    "home": "首頁",
+    "products": "產品服務",
+    "aiStudio": "AI 定制 ✨",
+    "specialOffers": "包郵套餐 🚚",
+    "designGuide": "設計指南",
+    "blog": "印刷知識",
+    "contact": "聯絡我們",
+    "account": "我的賬戶",
+    "cart": "購物車",
+    "faq": "常見問題",
+    "shipping": "配送方式",
+    "payment": "付款方式"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "retry": "重試",
+    "cancel": "取消",
+    "confirm": "確認",
+    "save": "保存",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "viewAll": "查看全部 →",
+    "learnMore": "了解更多",
+    "getStarted": "立即開始",
+    "contactUs": "聯絡我們",
+    "callNow": "立即致電",
+    "whatsapp": "WhatsApp 查詢",
+    "email": "電郵我們",
+    "back": "返回"
+  },
+  "product": {
+    "title": "產品",
+    "categories": "產品類別",
+    "allProducts": "全部產品",
+    "featured": "精選產品",
+    "newArrival": "新品上市",
+    "bestseller": "熱銷產品",
+    "minQuantity": "最少訂購量",
+    "price": "價格",
+    "from": "起",
+    "perUnit": "每個",
+    "freeDesign": "免費設計",
+    "sameDay": "即日取件",
+    "nextDay": "翌日取件",
+    "fastDelivery": "快速送貨",
+    "addToCart": "加入購物車",
+    "buyNow": "立即購買",
+    "getQuote": "獲取報價",
+    "customize": "立即定制",
+    "viewDetails": "查看詳情",
+    "inStock": "有現貨",
+    "outOfStock": "暫時缺貨",
+    "lowStock": "庫存緊張",
+    "specifications": "產品規格",
+    "description": "產品描述",
+    "reviews": "客戶評價",
+    "relatedProducts": "相關產品",
+    "youMayAlsoLike": "您可能還喜歡",
+    "viewAll": "查看全部",
+    "items": "件產品",
+    "quality": "品質保證",
+    "noProducts": "此分類暫無產品"
+  },
+  "cart": {
+    "title": "購物車",
+    "empty": "您的購物車是空的",
+    "emptyMessage": "快去選購心儀的產品吧！",
+    "continueShopping": "繼續購物",
+    "item": "件商品",
+    "items": "件商品",
+    "quantity": "數量",
+    "subtotal": "小計",
+    "shipping": "運費",
+    "freeShipping": "免運費",
+    "discount": "優惠",
+    "total": "合計",
+    "checkout": "前往結賬",
+    "remove": "移除",
+    "update": "更新",
+    "clear": "清空購物車",
+    "addNote": "添加備註"
+  },
+  "checkout": {
+    "title": "結賬",
+    "shippingInfo": "送貨資訊",
+    "paymentMethod": "付款方式",
+    "orderSummary": "訂單摘要",
+    "placeOrder": "確認訂單",
+    "processing": "處理中...",
+    "success": "訂單提交成功！",
+    "successMessage": "感謝您的訂購，我們會盡快處理您的訂單。",
+    "name": "姓名",
+    "phone": "電話",
+    "email": "電郵",
+    "address": "地址",
+    "city": "城市",
+    "district": "地區",
+    "postalCode": "郵政編號",
+    "country": "國家/地區",
+    "sameAsBilling": "送貨地址與賬單地址相同",
+    "addAddress": "添加新地址",
+    "selectAddress": "選擇地址"
+  },
+  "shipping": {
+    "title": "運送資訊",
+    "methods": "運送方式",
+    "standard": "標準運送",
+    "express": "快速運送",
+    "sameDay": "即日送達",
+    "freeShipping": "免運費",
+    "freeShippingThreshold": "滿 HK$100 免運費",
+    "estimatedDelivery": "預計送達",
+    "trackOrder": "追蹤訂單",
+    "sfExpress": "順豐速運",
+    "toHK": "送貨到香港",
+    "toGlobal": "國際送貨"
+  },
+  "payment": {
+    "title": "付款方式",
+    "alipay": "支付寶",
+    "wechatPay": "微信支付",
+    "fps": "轉數快",
+    "creditCard": "信用卡",
+    "paypal": "PayPal",
+    "stripe": "Stripe",
+    "secure": "安全加密付款",
+    "processingFee": "手續費"
+  },
+  "aiStudio": {
+    "title": "AI 定制工作室",
+    "subtitle": "用 AI 將您的照片變成藝術品",
+    "description": "上傳照片，AI 自動優化，一鍵定制專屬印刷品",
+    "steps": "上傳,處理,下載",
+    "upload": {
+      "title": "上傳您的照片",
+      "dragDrop": "拖放照片到這裡",
+      "orClick": "或點擊選擇文件",
+      "supportedFormats": "支持 JPG, PNG, PDF 格式，最大 50MB",
+      "tips": "提示：高解析度照片效果更佳"
+    },
+    "enhance": {
+      "title": "AI 智能優化",
+      "options": "優化選項",
+      "upscale": "智能放大",
+      "colorCorrection": "色彩校正",
+      "backgroundRemoval": "背景移除",
+      "styleTransfer": "風格轉換",
+      "processing": "AI 處理中...",
+      "preview": "預覽效果"
+    },
+    "customize": {
+      "title": "個性化設計",
+      "addText": "添加文字",
+      "chooseStyle": "選擇風格",
+      "filters": "濾鏡效果",
+      "frames": "邊框選擇"
+    },
+    "preview": {
+      "title": "預覽效果",
+      "original": "原圖",
+      "enhanced": "優化後",
+      "mockup": "印刷效果",
+      "satisfied": "滿意這個效果？",
+      "tryAgain": "重新調整"
+    },
+    "selectSize": "選擇尺寸",
+    "selectQuantity": "選擇數量",
+    "addToCart": "加入購物車",
+    "startOver": "重新開始"
+  },
+  "specialOffers": {
+    "title": "包郵套餐專區",
+    "subtitle": "固定三個尺寸，全港順豐直送免運費！",
+    "packages": {
+      "small": {
+        "name": "小型套餐",
+        "size": "300 x 440 mm",
+        "description": "適合小型海報、傳單、菜單"
+      },
+      "medium": {
+        "name": "中型套餐",
+        "size": "350 x 500 mm",
+        "description": "適合中型海報、宣傳單張",
+        "popular": "最受歡迎"
+      },
+      "large": {
+        "name": "大型套餐",
+        "size": "510 x 730 mm",
+        "description": "適合大型海報、背景板"
+      }
+    },
+    "features": {
+      "freeShipping": "全港免運費",
+      "fastDelivery": "快速送達",
+      "freeDesign": "免費設計",
+      "waterproof": "防水覆膜"
+    },
+    "howItWorks": "如何訂購",
+    "faq": "常見問題"
+  },
+  "seo": {
+    "homeTitle": "智印港 | 香港專業印刷公司 | 名片/傳單/紙袋/包裝盒印刷 | 免費設計＋24小時出貨",
+    "homeDescription": "智印港是香港專業印刷公司，提供名片、傳單、紙袋、包裝盒、貼紙、海報、畫冊、信封等印刷服務。免費專業設計，24小時急速出貨，全港順豐直送。",
+    "keywords": "香港印刷公司, 名片印刷, 傳單印刷, 紙袋印刷, 包裝盒印刷, 貼紙印刷, 海報印刷, 畫冊印刷, 信封印刷, 數碼印刷, 噴繪廣告, 香港快印, 24小時印刷, 免費設計印刷"
+  },
+  "footer": {
+    "about": "關於智印港",
+    "products": {
+      "title": "產品分類"
+    },
+    "support": {
+      "title": "客戶支援"
+    },
+    "legal": "法律資訊",
+    "newsletter": {
+      "title": "訂閱我們",
+      "description": "獲取最新優惠和印刷資訊",
+      "placeholder": "輸入您的電郵",
+      "subscribe": "訂閱"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "phone": "電話",
+      "email": "電郵",
+      "address": "地址",
+      "hours": "營業時間"
+    },
+    "copyright": "© {year} 智印港 Z-PrintPro. 保留所有權利。"
+  },
+  "errors": {
+    "404": {
+      "title": "頁面未找到",
+      "message": "抱歉，您要找的頁面不存在。",
+      "backHome": "返回首頁"
+    },
+    "500": {
+      "title": "伺服器錯誤",
+      "message": "抱歉，伺服器發生錯誤。請稍後再試。",
+      "retry": "重新載入"
+    },
+    "generic": {
+      "title": "發生錯誤",
+      "message": "抱歉，發生了一些問題。請稍後再試。"
+    }
+  }
+}
