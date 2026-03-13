@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation';
-import { getMessages, setRequestLocale } from 'next-intl/server'; // 修复：移除 unstable_，使用 setRequestLocale
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import { locales, type Locale, localeToHreflang } from '@/i18n';
-import { Metadata, Viewport } from 'next';
+import { locales, type Locale } from '@/i18n';
+import { Metadata } from 'next';
 import { Inter, Noto_Sans_HK } from 'next/font/google';
+import '@/styles/globals.css';
 
 const inter = Inter({ 
   subsets: ['latin'],
