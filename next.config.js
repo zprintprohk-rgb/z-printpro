@@ -14,8 +14,7 @@ const nextConfig = {
   poweredByHeader: false, // SEO：隐藏技术栈
   staticPageGenerationTimeout: 300, // 静态页面生成超时时间（秒）
   experimental: {
-    optimizeCss: true, // 需要 critters 包（CSS 内联优化）
-    scrollRestoration: true,
+     scrollRestoration: true,
   },
   async headers() {
     return [
