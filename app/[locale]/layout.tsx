@@ -133,7 +133,7 @@ export default async function LocaleLayout({
           }}
         />
       </head>
-      <body className={`${isHK ? notoSansHK.className : inter.className} antialiased bg-gray-50`}>
+      <body className={`${isHK ? notoSansHK.className : inter.className} antialiased bg-background`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
         </NextIntlClientProvider>
