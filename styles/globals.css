@@ -9,7 +9,7 @@
 /* CSS 變量定義 */
 @layer base {
   :root {
-    /* 背景色 */
+    /* 背景色 - HSL 格式 */
     --background: 210 20% 98%;
     --foreground: 222.2 84% 4.9%;
     
