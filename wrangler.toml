@@ -1,0 +1,12 @@
+# Cloudflare Pages 部署配置
+
+name = "z-printpro"
+compatibility_date = "2024-01-01"
+
+# 构建输出输出（Pages 必需字段）
+pages_build_output_dir = ".next"
+
+# 环境变量（生产环境）
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://z-printpro.pages.dev"
+NEXT_PUBLIC_DEFAULT_LOCALE = "zh-HK"

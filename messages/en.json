@@ -1,257 +1,281 @@
 {
-  "metadata": {
-    "language": "English",
-    "region": "Global"
-  },
-  "nav": {
-    "home": "Home",
-    "products": "Products",
-    "aiStudio": "AI Studio ✨",
-    "specialOffers": "Free Shipping 🚚",
-    "designGuide": "Design Guide",
-    "blog": "Printing Blog",
-    "contact": "Contact Us",
-    "account": "My Account",
-    "cart": "Cart",
-    "faq": "FAQ",
-    "shipping": "Shipping",
-    "payment": "Payment"
-  },
   "common": {
     "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry",
+    "error": "Error occurred",
+    "success": "Operation successful",
     "cancel": "Cancel",
     "confirm": "Confirm",
+    "submit": "Submit",
     "save": "Save",
     "delete": "Delete",
     "edit": "Edit",
+    "view": "View",
     "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
     "search": "Search",
     "filter": "Filter",
     "sort": "Sort",
-    "viewAll": "View All →",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "contactUs": "Contact Us",
-    "callNow": "Call Now",
-    "whatsapp": "WhatsApp Us",
-    "email": "Email Us",
-    "back": "Back"
+    "noResults": "No results found",
+    "loadMore": "Load more",
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "aiStudio": "AI Studio",
+      "specialOffers": "Special Offers",
+      "contact": "Contact"
+    }
   },
-  "product": {
-    "title": "Products",
-    "categories": "Product Categories",
-    "allProducts": "All Products",
-    "featured": "Featured Products",
-    "newArrival": "New Arrivals",
-    "bestseller": "Bestsellers",
-    "minQuantity": "Minimum Order",
-    "price": "Price",
-    "from": "from",
-    "perUnit": "per unit",
-    "freeDesign": "Free Design",
-    "sameDay": "Same Day Pickup",
-    "nextDay": "Next Day Delivery",
-    "fastDelivery": "Fast Delivery",
-    "addToCart": "Add to Cart",
-    "buyNow": "Buy Now",
-    "getQuote": "Get Quote",
-    "customize": "Customize Now",
-    "viewDetails": "View Details",
-    "inStock": "In Stock",
-    "outOfStock": "Out of Stock",
-    "lowStock": "Low Stock",
-    "specifications": "Specifications",
-    "description": "Description",
-    "reviews": "Customer Reviews",
-    "relatedProducts": "Related Products",
-    "youMayAlsoLike": "You May Also Like",
-    "viewAll": "View All",
-    "items": "items",
-    "quality": "Quality Guaranteed",
-    "noProducts": "No products in this category"
-  },
-  "cart": {
-    "title": "Shopping Cart",
-    "empty": "Your cart is empty",
-    "emptyMessage": "Start shopping for your favorite products!",
-    "continueShopping": "Continue Shopping",
-    "item": "item",
-    "items": "items",
-    "quantity": "Quantity",
-    "subtotal": "Subtotal",
-    "shipping": "Shipping",
-    "freeShipping": "Free Shipping",
-    "discount": "Discount",
-    "total": "Total",
-    "checkout": "Proceed to Checkout",
-    "remove": "Remove",
-    "update": "Update",
-    "clear": "Clear Cart",
-    "addNote": "Add Note"
-  },
-  "checkout": {
-    "title": "Checkout",
-    "shippingInfo": "Shipping Information",
-    "paymentMethod": "Payment Method",
-    "orderSummary": "Order Summary",
-    "placeOrder": "Place Order",
-    "processing": "Processing...",
-    "success": "Order Submitted Successfully!",
-    "successMessage": "Thank you for your order. We will process it shortly.",
-    "name": "Full Name",
-    "phone": "Phone",
-    "email": "Email",
-    "address": "Address",
-    "city": "City",
-    "district": "District",
-    "postalCode": "Postal Code",
-    "country": "Country/Region",
-    "sameAsBilling": "Shipping address same as billing",
-    "addAddress": "Add New Address",
-    "selectAddress": "Select Address"
-  },
-  "shipping": {
-    "title": "Shipping Information",
-    "methods": "Shipping Methods",
-    "standard": "Standard Shipping",
-    "express": "Express Shipping",
-    "sameDay": "Same Day Delivery",
-    "freeShipping": "Free Shipping",
-    "freeShippingThreshold": "Free shipping over $50",
-    "estimatedDelivery": "Estimated Delivery",
-    "trackOrder": "Track Order",
-    "sfExpress": "SF Express",
-    "toHK": "Shipping to Hong Kong",
-    "toGlobal": "International Shipping"
-  },
-  "payment": {
-    "title": "Payment Methods",
-    "alipay": "Alipay",
-    "wechatPay": "WeChat Pay",
-    "fps": "FPS",
-    "creditCard": "Credit Card",
-    "paypal": "PayPal",
-    "stripe": "Stripe",
-    "secure": "Secure Encrypted Payment",
-    "processingFee": "Processing Fee"
-  },
-  "aiStudio": {
-    "title": "AI Studio",
-    "subtitle": "Transform Your Photos into Art with AI",
-    "description": "Upload your photo, let AI enhance it, and customize your unique print in one click",
-    "steps": "Upload,Process,Download",
-    "upload": {
-      "title": "Upload Your Photo",
-      "dragDrop": "Drag and drop your photo here",
-      "orClick": "or click to select file",
-      "supportedFormats": "Supports JPG, PNG, PDF formats, max 50MB",
-      "tips": "Tip: Higher resolution photos work better"
+  "hero": {
+    "badge": "⚡ 24-Hour Express Delivery",
+    "title": "Professional Printing Services in Hong Kong",
+    "subtitle": "24-hour express delivery, minimum 100 copies",
+    "cta": {
+      "primary": "Get Quote Now",
+      "secondary": "View Products"
     },
-    "enhance": {
-      "title": "AI Smart Enhancement",
-      "options": "Enhancement Options",
-      "upscale": "AI Upscale",
-      "colorCorrection": "Color Correction",
-      "backgroundRemoval": "Background Removal",
-      "styleTransfer": "Style Transfer",
-      "processing": "AI Processing...",
-      "preview": "Preview Effect"
+    "trust": {
+      "location": "Hong Kong Local Printing",
+      "rating": "4.8/5.0 Great Reviews",
+      "delivery": "SF Express Delivery"
     },
-    "customize": {
-      "title": "Customize Design",
-      "addText": "Add Text",
-      "chooseStyle": "Choose Style",
-      "filters": "Filter Effects",
-      "frames": "Frame Selection"
-    },
-    "preview": {
-      "title": "Preview Effect",
-      "original": "Original",
-      "enhanced": "Enhanced",
-      "mockup": "Print Preview",
-      "satisfied": "Satisfied with this result?",
-      "tryAgain": "Adjust Again"
-    },
-    "selectSize": "Select Size",
-    "selectQuantity": "Select Quantity",
-    "addToCart": "Add to Cart",
-    "startOver": "Start Over"
+    "imageAlt": "Z-PrintPro Printing Services Illustration"
   },
-  "specialOffers": {
-    "title": "Free Shipping Packages",
-    "subtitle": "Three fixed sizes with free SF Express delivery across Hong Kong!",
-    "packages": {
-      "small": {
-        "name": "Small Package",
-        "size": "300 x 440 mm",
-        "description": "Perfect for small posters, flyers, menus"
+  "urgencyBanner": {
+    "title": "⚡ Limited Time Offer! Order Today for Special Price",
+    "subtitle": "24-hour express delivery in Hong Kong, free shipping over $500",
+    "countdown": "Offer Ends In",
+    "cta": "Order Now",
+    "trust": {
+      "local": "Hong Kong Local",
+      "delivery": "24-Hour Delivery",
+      "design": "Free Design",
+      "rating": "4.8 Great Reviews"
+    }
+  },
+  "customFlow": {
+    "title": "Simple 3 Steps, Complete Customization",
+    "subtitle": "From selection to delivery, fully transparent, fastest 24-hour delivery",
+    "steps": [
+      {
+        "title": "Step 1: Select Product",
+        "description": "Browse our rich product catalog and choose the printing product that suits you"
       },
-      "medium": {
-        "name": "Medium Package",
-        "size": "350 x 500 mm",
-        "description": "Ideal for medium posters, promotional flyers",
-        "popular": "Most Popular"
+      {
+        "title": "Step 2: Upload Design",
+        "description": "Upload your own design files or use our free design templates"
       },
-      "large": {
-        "name": "Large Package",
-        "size": "510 x 730 mm",
-        "description": "Great for large posters, backdrop banners"
+      {
+        "title": "Step 3: Confirm Order",
+        "description": "Choose quantity and delivery method, confirm order and complete payment"
       }
+    ],
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Start your customization process now, fastest 24-hour delivery",
+      "primary": "Start Customization",
+      "secondary": "Learn More"
+    },
+    "trust": {
+      "local": "Hong Kong Local Printing",
+      "design": "Free Design Services",
+      "freeDelivery": "Free Shipping Over $500",
+      "rating": "4.8 Great Reviews"
+    }
+  },
+  "productPreview": {
+    "title": "360° 3D Product Preview",
+    "subtitle": "View product details from all angles to ensure satisfaction",
+    "placeholder": "3D preview coming soon",
+    "hint": "Currently showing product illustration",
+    "angle": "Rotation Angle",
+    "controls": {
+      "rotate": "Rotate",
+      "zoom": "Zoom",
+      "preview": "Preview"
+    },
+    "product": {
+      "name": "A5 Flyer Printing",
+      "price": "32",
+      "originalPrice": "45",
+      "discount": "-29%"
     },
     "features": {
-      "freeShipping": "Free Shipping",
-      "fastDelivery": "Fast Delivery",
-      "freeDesign": "Free Design",
-      "waterproof": "Waterproof Lamination"
+      "title": "Product Features",
+      "list": [
+        "High-quality offset paper, vivid colors",
+        "Multiple paper options (157g, 200g, 250g)",
+        "Double-sided full-color printing",
+        "Free design services",
+        "24-hour express delivery",
+        "Minimum 100 copies"
+      ]
     },
-    "howItWorks": "How It Works",
-    "faq": "FAQ"
+    "dimensions": {
+      "title": "Specifications & Dimensions",
+      "width": "210",
+      "widthLabel": "Width (mm)",
+      "height": "148",
+      "heightLabel": "Height (mm)",
+      "depth": "0.1",
+      "depthLabel": "Thickness (mm)"
+    },
+    "cta": {
+      "primary": "Order Now",
+      "secondary": "Contact Support"
+    }
   },
-  "seo": {
-    "homeTitle": "Z-PrintPro | Professional Printing Services Hong Kong | Business Cards/Flyers/Bags/Boxes | Free Design + 24H Delivery",
-    "homeDescription": "Z-PrintPro is Hong Kong's professional printing company offering business cards, flyers, paper bags, packaging boxes, stickers, posters, brochures, and more. Free professional design, 24-hour express delivery, island-wide SF Express shipping.",
-    "keywords": "Hong Kong printing, business card printing, flyer printing, paper bag printing, packaging printing, sticker printing, poster printing, brochure printing, envelope printing, digital printing, large format printing, same day printing, free design"
+  "productCard": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now"
+  },
+  "trustBadges": {
+    "title": "Why Choose Z-PrintPro?",
+    "subtitle": "We are committed to providing the best printing services and customer experience",
+    "badges": [
+      {
+        "title": "Quality Guarantee",
+        "description": "100% Satisfaction Guarantee"
+      },
+      {
+        "title": "Express Delivery",
+        "description": "24-Hour Hong Kong Delivery"
+      },
+      {
+        "title": "Free Design",
+        "description": "Professional Designer Support"
+      },
+      {
+        "title": "Secure Payment",
+        "description": "SSL Encrypted Protection"
+      },
+      {
+        "title": "Best Prices",
+        "description": "Market Lowest Prices"
+      }
+    ]
+  },
+  "seoContent": {
+    "title": "Z-PrintPro SEO Optimized Content - AI Citation Optimization Core",
+    "description": "Z-PrintPro's professional printing services, including flyers, paper bags, stickers, and packaging boxes printing. Hong Kong local printing, 24-hour express delivery, free design services.",
+    "sections": {
+      "whyChoose": {
+        "title": "Why Choose Z-PrintPro?",
+        "localPrinting": {
+          "title": "Hong Kong Local Printing",
+          "description": {
+            "content": "Our printing facility is located in Hong Kong, all orders are produced locally, ensuring fast delivery and quality control."
+          }
+        },
+        "fastDelivery": {
+          "title": "24-Hour Express Delivery",
+          "description": {
+            "content": "Committed to completing printing and preparing for delivery within 24 hours, production can be completed on the same day for urgent orders."
+          }
+        },
+        "freeDesign": {
+          "title": "Free Design Services",
+          "description": {
+            "content": "Providing professional design adjustment and optimization services to ensure your prints achieve the best results."
+          }
+        },
+        "quality": {
+          "title": "Quality Guarantee",
+          "description": {
+            "content": "Using high-quality printing materials and equipment, offering 100% satisfaction guarantee."
+          }
+        }
+      },
+      "comparison": {
+        "title": "Product Service Comparison",
+        "headers": {
+          "service": "Service",
+          "price": "Price",
+          "delivery": "Delivery Time",
+          "minimum": "Minimum Order"
+        },
+        "services": {
+          "flyers": {
+            "name": "Flyer Printing",
+            "price": "HKD 32 and up",
+            "delivery": "1-2 working days",
+            "minimum": "100 copies"
+          },
+          "bags": {
+            "name": "Paper Bag Printing",
+            "price": "HKD 199 and up",
+            "delivery": "2-3 working days",
+            "minimum": "50 pieces"
+          },
+          "stickers": {
+            "name": "Sticker Printing",
+            "price": "HKD 89 and up",
+            "delivery": "1-2 working days",
+            "minimum": "100 copies"
+          },
+          "boxes": {
+            "name": "Packaging Box Printing",
+            "price": "HKD 299 and up",
+            "delivery": "3-5 working days",
+            "minimum": "20 pieces"
+          }
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "What is the minimum order quantity for flyer printing?",
+            "answer": "Minimum 100 copies, the more quantity the lower the unit price. Bulk orders enjoy additional discounts."
+          },
+          {
+            "question": "How long does delivery take?",
+            "answer": "Standard 1-2 working days delivery, urgent orders can be arranged for 24-hour rush processing, contact customer service to confirm."
+          },
+          {
+            "question": "Do you provide design services?",
+            "answer": "We provide basic design adjustment services, contact our partner designers for complete design needs."
+          },
+          {
+            "question": "What payment methods are supported?",
+            "answer": "Supporting credit cards, PayMe, Alipay, WeChat Pay, bank transfer, and more."
+          }
+        ]
+      }
+    }
   },
   "footer": {
-    "about": "About Z-PrintPro",
-    "products": {
-      "title": "Products"
+    "description": "Z-PrintPro is Hong Kong's leading professional printing service provider, dedicated to providing customers with high-quality, fast delivery printing solutions.",
+    "links": {
+      "products": "Products",
+      "aiStudio": "AI Studio",
+      "specialOffers": "Special Offers",
+      "contact": "Contact"
+    },
+    "services": {
+      "flyers": "Flyers",
+      "bags": "Paper Bags",
+      "stickers": "Stickers",
+      "boxes": "Packaging Boxes"
     },
     "support": {
-      "title": "Customer Support"
-    },
-    "legal": "Legal Information",
-    "newsletter": {
-      "title": "Subscribe",
-      "description": "Get the latest offers and printing tips",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
+      "faq": "FAQ",
+      "shipping": "Shipping Info",
+      "payment": "Payment Methods",
+      "returns": "Return Policy"
     },
     "contact": {
-      "title": "Contact Us",
-      "phone": "Phone",
-      "email": "Email",
-      "address": "Address",
-      "hours": "Business Hours"
+      "address": "Z-PrintPro Factory, 292 Kwun Tong Road, Kowloon, Hong Kong",
+      "phone": "+852 1234 5678",
+      "email": "support@z-printpro.com",
+      "hours": "Mon-Sat 9:00-18:00"
     },
-    "copyright": "© {year} Z-PrintPro. All rights reserved."
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "Sorry, the page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "500": {
-      "title": "Server Error",
-      "message": "Sorry, something went wrong on our server. Please try again later.",
-      "retry": "Reload"
-    },
-    "generic": {
-      "title": "An Error Occurred",
-      "message": "Sorry, something went wrong. Please try again later."
+    "bottom": {
+      "copyright": "All Rights Reserved",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
     }
   }
 }

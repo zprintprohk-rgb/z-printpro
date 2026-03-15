@@ -1,257 +1,281 @@
 {
-  "metadata": {
-    "language": "繁體中文",
-    "region": "香港"
-  },
-  "nav": {
-    "home": "首頁",
-    "products": "產品服務",
-    "aiStudio": "AI 定制 ✨",
-    "specialOffers": "包郵套餐 🚚",
-    "designGuide": "設計指南",
-    "blog": "印刷知識",
-    "contact": "聯絡我們",
-    "account": "我的賬戶",
-    "cart": "購物車",
-    "faq": "常見問題",
-    "shipping": "配送方式",
-    "payment": "付款方式"
-  },
   "common": {
-    "loading": "載入中...",
+    "loading": "加載中...",
     "error": "發生錯誤",
-    "retry": "重試",
+    "success": "操作成功",
     "cancel": "取消",
     "confirm": "確認",
+    "submit": "提交",
     "save": "保存",
     "delete": "刪除",
     "edit": "編輯",
+    "view": "查看",
     "close": "關閉",
-    "search": "搜尋",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
     "filter": "篩選",
     "sort": "排序",
-    "viewAll": "查看全部 →",
-    "learnMore": "了解更多",
-    "getStarted": "立即開始",
-    "contactUs": "聯絡我們",
-    "callNow": "立即致電",
-    "whatsapp": "WhatsApp 查詢",
-    "email": "電郵我們",
-    "back": "返回"
+    "noResults": "暫無結果",
+    "loadMore": "加載更多",
+    "nav": {
+      "home": "首頁",
+      "products": "產品",
+      "aiStudio": "AI 設計",
+      "specialOffers": "特別優惠",
+      "contact": "聯繫我們"
+    }
   },
-  "product": {
-    "title": "產品",
-    "categories": "產品類別",
-    "allProducts": "全部產品",
-    "featured": "精選產品",
-    "newArrival": "新品上市",
-    "bestseller": "熱銷產品",
-    "minQuantity": "最少訂購量",
-    "price": "價格",
-    "from": "起",
-    "perUnit": "每個",
-    "freeDesign": "免費設計",
-    "sameDay": "即日取件",
-    "nextDay": "翌日取件",
-    "fastDelivery": "快速送貨",
-    "addToCart": "加入購物車",
-    "buyNow": "立即購買",
-    "getQuote": "獲取報價",
-    "customize": "立即定制",
-    "viewDetails": "查看詳情",
-    "inStock": "有現貨",
-    "outOfStock": "暫時缺貨",
-    "lowStock": "庫存緊張",
-    "specifications": "產品規格",
-    "description": "產品描述",
-    "reviews": "客戶評價",
-    "relatedProducts": "相關產品",
-    "youMayAlsoLike": "您可能還喜歡",
-    "viewAll": "查看全部",
-    "items": "件產品",
-    "quality": "品質保證",
-    "noProducts": "此分類暫無產品"
-  },
-  "cart": {
-    "title": "購物車",
-    "empty": "您的購物車是空的",
-    "emptyMessage": "快去選購心儀的產品吧！",
-    "continueShopping": "繼續購物",
-    "item": "件商品",
-    "items": "件商品",
-    "quantity": "數量",
-    "subtotal": "小計",
-    "shipping": "運費",
-    "freeShipping": "免運費",
-    "discount": "優惠",
-    "total": "合計",
-    "checkout": "前往結賬",
-    "remove": "移除",
-    "update": "更新",
-    "clear": "清空購物車",
-    "addNote": "添加備註"
-  },
-  "checkout": {
-    "title": "結賬",
-    "shippingInfo": "送貨資訊",
-    "paymentMethod": "付款方式",
-    "orderSummary": "訂單摘要",
-    "placeOrder": "確認訂單",
-    "processing": "處理中...",
-    "success": "訂單提交成功！",
-    "successMessage": "感謝您的訂購，我們會盡快處理您的訂單。",
-    "name": "姓名",
-    "phone": "電話",
-    "email": "電郵",
-    "address": "地址",
-    "city": "城市",
-    "district": "地區",
-    "postalCode": "郵政編號",
-    "country": "國家/地區",
-    "sameAsBilling": "送貨地址與賬單地址相同",
-    "addAddress": "添加新地址",
-    "selectAddress": "選擇地址"
-  },
-  "shipping": {
-    "title": "運送資訊",
-    "methods": "運送方式",
-    "standard": "標準運送",
-    "express": "快速運送",
-    "sameDay": "即日送達",
-    "freeShipping": "免運費",
-    "freeShippingThreshold": "滿 HK$100 免運費",
-    "estimatedDelivery": "預計送達",
-    "trackOrder": "追蹤訂單",
-    "sfExpress": "順豐速運",
-    "toHK": "送貨到香港",
-    "toGlobal": "國際送貨"
-  },
-  "payment": {
-    "title": "付款方式",
-    "alipay": "支付寶",
-    "wechatPay": "微信支付",
-    "fps": "轉數快",
-    "creditCard": "信用卡",
-    "paypal": "PayPal",
-    "stripe": "Stripe",
-    "secure": "安全加密付款",
-    "processingFee": "手續費"
-  },
-  "aiStudio": {
-    "title": "AI 定制工作室",
-    "subtitle": "用 AI 將您的照片變成藝術品",
-    "description": "上傳照片，AI 自動優化，一鍵定制專屬印刷品",
-    "steps": "上傳,處理,下載",
-    "upload": {
-      "title": "上傳您的照片",
-      "dragDrop": "拖放照片到這裡",
-      "orClick": "或點擊選擇文件",
-      "supportedFormats": "支持 JPG, PNG, PDF 格式，最大 50MB",
-      "tips": "提示：高解析度照片效果更佳"
+  "hero": {
+    "badge": "⚡ 24小時極速交付",
+    "title": "香港專業印刷服務",
+    "subtitle": "24小時極速交付，最低100張起印",
+    "cta": {
+      "primary": "立即獲取報價",
+      "secondary": "查看產品"
     },
-    "enhance": {
-      "title": "AI 智能優化",
-      "options": "優化選項",
-      "upscale": "智能放大",
-      "colorCorrection": "色彩校正",
-      "backgroundRemoval": "背景移除",
-      "styleTransfer": "風格轉換",
-      "processing": "AI 處理中...",
-      "preview": "預覽效果"
+    "trust": {
+      "location": "香港本地印刷",
+      "rating": "4.8/5.0 好評",
+      "delivery": "SF Express 配送"
     },
-    "customize": {
-      "title": "個性化設計",
-      "addText": "添加文字",
-      "chooseStyle": "選擇風格",
-      "filters": "濾鏡效果",
-      "frames": "邊框選擇"
-    },
-    "preview": {
-      "title": "預覽效果",
-      "original": "原圖",
-      "enhanced": "優化後",
-      "mockup": "印刷效果",
-      "satisfied": "滿意這個效果？",
-      "tryAgain": "重新調整"
-    },
-    "selectSize": "選擇尺寸",
-    "selectQuantity": "選擇數量",
-    "addToCart": "加入購物車",
-    "startOver": "重新開始"
+    "imageAlt": "智印港印刷服務插圖"
   },
-  "specialOffers": {
-    "title": "包郵套餐專區",
-    "subtitle": "固定三個尺寸，全港順豐直送免運費！",
-    "packages": {
-      "small": {
-        "name": "小型套餐",
-        "size": "300 x 440 mm",
-        "description": "適合小型海報、傳單、菜單"
+  "urgencyBanner": {
+    "title": "⚡ 限時優惠！今日下單享特價",
+    "subtitle": "24小時香港極速交付，滿$500免運費",
+    "countdown": "優惠結束時間",
+    "cta": "立即下單",
+    "trust": {
+      "local": "香港本地",
+      "delivery": "24小時達",
+      "design": "免費設計",
+      "rating": "4.8分好評"
+    }
+  },
+  "customFlow": {
+    "title": "簡單三步，完成定制",
+    "subtitle": "從選品到交付，全程透明，最快24小時送達",
+    "steps": [
+      {
+        "title": "第一步：選擇產品",
+        "description": "瀏覽我們豐富的產品目錄，選擇適合您的印刷產品"
       },
-      "medium": {
-        "name": "中型套餐",
-        "size": "350 x 500 mm",
-        "description": "適合中型海報、宣傳單張",
-        "popular": "最受歡迎"
+      {
+        "title": "第二步：上傳設計",
+        "description": "上傳您自己的設計文件，或使用我們的免費設計模板"
       },
-      "large": {
-        "name": "大型套餐",
-        "size": "510 x 730 mm",
-        "description": "適合大型海報、背景板"
+      {
+        "title": "第三步：確認下單",
+        "description": "選擇數量和配送方式，確認訂單並完成支付"
       }
+    ],
+    "cta": {
+      "title": "準備好開始了嗎？",
+      "description": "立即開始您的定制流程，最快24小時送達",
+      "primary": "開始定制",
+      "secondary": "了解更多"
+    },
+    "trust": {
+      "local": "香港本地印刷",
+      "design": "免費設計服務",
+      "freeDelivery": "滿$500免運費",
+      "rating": "4.8分好評"
+    }
+  },
+  "productPreview": {
+    "title": "360° 3D 產品預覽",
+    "subtitle": "全方位查看產品細節，確保滿意",
+    "placeholder": "3D 預覽即將推出",
+    "hint": "目前展示產品示意圖",
+    "angle": "旋轉角度",
+    "controls": {
+      "rotate": "旋轉",
+      "zoom": "縮放",
+      "preview": "預覽"
+    },
+    "product": {
+      "name": "A5 宣傳單張印刷",
+      "price": "32",
+      "originalPrice": "45",
+      "discount": "-29%"
     },
     "features": {
-      "freeShipping": "全港免運費",
-      "fastDelivery": "快速送達",
-      "freeDesign": "免費設計",
-      "waterproof": "防水覆膜"
+      "title": "產品特點",
+      "list": [
+        "高品質銅版紙，色彩飽和",
+        "多種紙張選擇（157g, 200g, 250g）",
+        "雙面全彩印刷",
+        "免費設計服務",
+        "24小時極速交付",
+        "最低100張起印"
+      ]
     },
-    "howItWorks": "如何訂購",
-    "faq": "常見問題"
+    "dimensions": {
+      "title": "規格尺寸",
+      "width": "210",
+      "widthLabel": "寬度 (mm)",
+      "height": "148",
+      "heightLabel": "高度 (mm)",
+      "depth": "0.1",
+      "depthLabel": "厚度 (mm)"
+    },
+    "cta": {
+      "primary": "立即下單",
+      "secondary": "聯繫客服"
+    }
   },
-  "seo": {
-    "homeTitle": "智印港 | 香港專業印刷公司 | 名片/傳單/紙袋/包裝盒印刷 | 免費設計＋24小時出貨",
-    "homeDescription": "智印港是香港專業印刷公司，提供名片、傳單、紙袋、包裝盒、貼紙、海報、畫冊、信封等印刷服務。免費專業設計，24小時急速出貨，全港順豐直送。",
-    "keywords": "香港印刷公司, 名片印刷, 傳單印刷, 紙袋印刷, 包裝盒印刷, 貼紙印刷, 海報印刷, 畫冊印刷, 信封印刷, 數碼印刷, 噴繪廣告, 香港快印, 24小時印刷, 免費設計印刷"
+  "productCard": {
+    "addToCart": "加入購物車",
+    "buyNow": "立即購買"
+  },
+  "trustBadges": {
+    "title": "為什麼選擇智印港？",
+    "subtitle": "我們承諾提供最佳的印刷服務和客戶體驗",
+    "badges": [
+      {
+        "title": "質量保證",
+        "description": "100%滿意度保證"
+      },
+      {
+        "title": "極速交付",
+        "description": "24小時香港送達"
+      },
+      {
+        "title": "免費設計",
+        "description": "專業設計師支持"
+      },
+      {
+        "title": "安全支付",
+        "description": "SSL加密保護"
+      },
+      {
+        "title": "優惠價格",
+        "description": "市場最低價格"
+      }
+    ]
+  },
+  "seoContent": {
+    "title": "智印港 SEO 優化內容 - AI 引用優化核心",
+    "description": "智印港的專業印刷服務，包括宣傳單張、紙袋、貼紙和包裝盒印刷。香港本地印刷，24小時快速交付，免費設計服務。",
+    "sections": {
+      "whyChoose": {
+        "title": "為什麼選擇智印港？",
+        "localPrinting": {
+          "title": "香港本地印刷",
+          "description": {
+            "content": "我們的印刷工廠位於香港，所有訂單均在本地生產，確保快速交付和品質控制。"
+          }
+        },
+        "fastDelivery": {
+          "title": "24小時極速交付",
+          "description": {
+            "content": "承諾24小時內完成印刷並準備配送，最短可在下單當日完成生產。"
+          }
+        },
+        "freeDesign": {
+          "title": "免費設計服務",
+          "description": {
+            "content": "提供專業的設計調整和優化服務，確保您的印刷品達到最佳效果。"
+          }
+        },
+        "quality": {
+          "title": "品質保證",
+          "description": {
+            "content": "使用高品質的印刷材料和設備，提供100%滿意度保證。"
+          }
+        }
+      },
+      "comparison": {
+        "title": "產品服務對比",
+        "headers": {
+          "service": "服務",
+          "price": "價格",
+          "delivery": "配送時間",
+          "minimum": "最低起訂量"
+        },
+        "services": {
+          "flyers": {
+            "name": "宣傳單張印刷",
+            "price": "HKD 32 起",
+            "delivery": "1-2 工作日",
+            "minimum": "100 張"
+          },
+          "bags": {
+            "name": "紙袋印刷",
+            "price": "HKD 199 起",
+            "delivery": "2-3 工作日",
+            "minimum": "50 個"
+          },
+          "stickers": {
+            "name": "貼紙印刷",
+            "price": "HKD 89 起",
+            "delivery": "1-2 工作日",
+            "minimum": "100 張"
+          },
+          "boxes": {
+            "name": "包裝盒印刷",
+            "price": "HKD 299 起",
+            "delivery": "3-5 工作日",
+            "minimum": "20 個"
+          }
+        }
+      },
+      "faq": {
+        "title": "常見問題",
+        "questions": [
+          {
+            "question": "宣傳單張印刷最低起訂量是多少？",
+            "answer": "最低100張起印，數量越多單價越優惠。批量訂單可享受額外折扣。"
+          },
+          {
+            "question": "多久可以完成交付？",
+            "answer": "標準訂單1-2個工作日交付，急單可安排24小時加急處理，需聯繫客服確認。"
+          },
+          {
+            "question": "可以提供設計服務嗎？",
+            "answer": "我們提供基礎設計調整服務，如需完整設計可聯繫我們的合作設計師。"
+          },
+          {
+            "question": "支持哪些支付方式？",
+            "answer": "支持信用卡、PayMe、支付宝、微信支付、銀行轉賬等多種支付方式。"
+          }
+        ]
+      }
+    }
   },
   "footer": {
-    "about": "關於智印港",
-    "products": {
-      "title": "產品分類"
+    "description": "智印港是香港領先的專業印刷服務提供商，致力於為客戶提供高質量、快速交付的印刷解決方案。",
+    "links": {
+      "products": "產品",
+      "aiStudio": "AI 設計",
+      "specialOffers": "特別優惠",
+      "contact": "聯繫我們"
+    },
+    "services": {
+      "flyers": "宣傳單張",
+      "bags": "紙袋",
+      "stickers": "貼紙",
+      "boxes": "包裝盒"
     },
     "support": {
-      "title": "客戶支援"
-    },
-    "legal": "法律資訊",
-    "newsletter": {
-      "title": "訂閱我們",
-      "description": "獲取最新優惠和印刷資訊",
-      "placeholder": "輸入您的電郵",
-      "subscribe": "訂閱"
+      "faq": "常見問題",
+      "shipping": "配送信息",
+      "payment": "支付方式",
+      "returns": "退換貨政策"
     },
     "contact": {
-      "title": "聯絡我們",
-      "phone": "電話",
-      "email": "電郵",
-      "address": "地址",
-      "hours": "營業時間"
+      "address": "香港九龍觀塘道292號智印港大廈",
+      "phone": "+852 1234 5678",
+      "email": "support@z-printpro.com",
+      "hours": "週一至週六 9:00-18:00"
     },
-    "copyright": "© {year} 智印港 Z-PrintPro. 保留所有權利。"
-  },
-  "errors": {
-    "404": {
-      "title": "頁面未找到",
-      "message": "抱歉，您要找的頁面不存在。",
-      "backHome": "返回首頁"
-    },
-    "500": {
-      "title": "伺服器錯誤",
-      "message": "抱歉，伺服器發生錯誤。請稍後再試。",
-      "retry": "重新載入"
-    },
-    "generic": {
-      "title": "發生錯誤",
-      "message": "抱歉，發生了一些問題。請稍後再試。"
+    "bottom": {
+      "copyright": "保留所有權利",
+      "privacy": "隱私政策",
+      "terms": "服務條款",
+      "cookies": "Cookie 政策"
     }
   }
 }

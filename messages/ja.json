@@ -1,257 +1,281 @@
 {
-  "metadata": {
-    "language": "日本語",
-    "region": "日本"
-  },
-  "nav": {
-    "home": "ホーム",
-    "products": "製品サービス",
-    "aiStudio": "AI カスタマイズ ✨",
-    "specialOffers": "送料無料セット 🚚",
-    "designGuide": "デザインガイド",
-    "blog": "印刷知識",
-    "contact": "お問い合わせ",
-    "account": "マイアカウント",
-    "cart": "カート",
-    "faq": "よくある質問",
-    "shipping": "配送方法",
-    "payment": "お支払い方法"
-  },
   "common": {
     "loading": "読み込み中...",
     "error": "エラーが発生しました",
-    "retry": "再試行",
+    "success": "操作が成功しました",
     "cancel": "キャンセル",
     "confirm": "確認",
+    "submit": "送信",
     "save": "保存",
     "delete": "削除",
     "edit": "編集",
+    "view": "表示",
     "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
     "search": "検索",
-    "filter": "絞り込み",
-    "sort": "並び替え",
-    "viewAll": "すべて見る →",
-    "learnMore": "詳細を見る",
-    "getStarted": "今すぐ始める",
-    "contactUs": "お問い合わせ",
-    "callNow": "今すぐ電話",
-    "whatsapp": "WhatsApp で問い合わせ",
-    "email": "メールで問い合わせ",
-    "back": "戻る"
+    "filter": "フィルター",
+    "sort": "並べ替え",
+    "noResults": "結果が見つかりません",
+    "loadMore": "もっと読み込む",
+    "nav": {
+      "home": "ホーム",
+      "products": "商品",
+      "aiStudio": "AIスタジオ",
+      "specialOffers": "特別オファー",
+      "contact": "お問い合わせ"
+    }
   },
-  "product": {
-    "title": "製品",
-    "categories": "製品カテゴリ",
-    "allProducts": "すべての製品",
-    "featured": "おすすめ製品",
-    "newArrival": "新着製品",
-    "bestseller": "売れ筋製品",
-    "minQuantity": "最小注文数",
-    "price": "価格",
-    "from": "から",
-    "perUnit": "1個あたり",
-    "freeDesign": "無料デザイン",
-    "sameDay": "当日受取",
-    "nextDay": "翌日受取",
-    "fastDelivery": "急速配送",
-    "addToCart": "カートに追加",
-    "buyNow": "今すぐ購入",
-    "getQuote": "見積もりを取得",
-    "customize": "今すぐカスタマイズ",
-    "viewDetails": "詳細を見る",
-    "inStock": "在庫あり",
-    "outOfStock": "在庫切れ",
-    "lowStock": "残りわずか",
-    "specifications": "製品仕様",
-    "description": "製品説明",
-    "reviews": "お客様のレビュー",
-    "relatedProducts": "関連製品",
-    "youMayAlsoLike": "こちらもおすすめ",
-    "viewAll": "すべて見る",
-    "items": "点の製品",
-    "quality": "品質保証",
-    "noProducts": "このカテゴリには製品がありません"
-  },
-  "cart": {
-    "title": "カート",
-    "empty": "カートは空です",
-    "emptyMessage": "お気に入りの製品を選びましょう！",
-    "continueShopping": "買い物を続ける",
-    "item": "点の商品",
-    "items": "点の商品",
-    "quantity": "数量",
-    "subtotal": "小計",
-    "shipping": "送料",
-    "freeShipping": "送料無料",
-    "discount": "割引",
-    "total": "合計",
-    "checkout": "レジへ進む",
-    "remove": "削除",
-    "update": "更新",
-    "clear": "カートを空にする",
-    "addNote": "備考を追加"
-  },
-  "checkout": {
-    "title": "お会計",
-    "shippingInfo": "配送情報",
-    "paymentMethod": "お支払い方法",
-    "orderSummary": "注文内容",
-    "placeOrder": "注文を確定",
-    "processing": "処理中...",
-    "success": "注文が完了しました！",
-    "successMessage": "ご注文ありがとうございます。順次処理いたします。",
-    "name": "お名前",
-    "phone": "電話番号",
-    "email": "メールアドレス",
-    "address": "住所",
-    "city": "市区町村",
-    "district": "地区",
-    "postalCode": "郵便番号",
-    "country": "国/地域",
-    "sameAsBilling": "配送先と請求先が同じ",
-    "addAddress": "新しい住所を追加",
-    "selectAddress": "住所を選択"
-  },
-  "shipping": {
-    "title": "配送情報",
-    "methods": "配送方法",
-    "standard": "標準配送",
-    "express": "速達配送",
-    "sameDay": "当日配送",
-    "freeShipping": "送料無料",
-    "freeShippingThreshold": "HK$100以上で送料無料",
-    "estimatedDelivery": "お届け予定",
-    "trackOrder": "注文を追跡",
-    "sfExpress": "SFエクスプレス",
-    "toHK": "香港への配送",
-    "toGlobal": "国際配送"
-  },
-  "payment": {
-    "title": "お支払い方法",
-    "alipay": "Alipay",
-    "wechatPay": "WeChat Pay",
-    "fps": "FPS",
-    "creditCard": "クレジットカード",
-    "paypal": "PayPal",
-    "stripe": "Stripe",
-    "secure": "安全な暗号化決済",
-    "processingFee": "手数料"
-  },
-  "aiStudio": {
-    "title": "AI カスタムスタジオ",
-    "subtitle": "AIであなたの写真を芸術品に",
-    "description": "写真をアップロードするとAIが自動で最適化し、ワンクリックでオリジナル印刷品を作成",
-    "steps": "アップロード,処理,ダウンロード",
-    "upload": {
-      "title": "写真をアップロード",
-      "dragDrop": "ここに写真をドラッグ＆ドロップ",
-      "orClick": "またはクリックしてファイルを選択",
-      "supportedFormats": "JPG、PNG、PDF形式対応、最大50MB",
-      "tips": "ヒント：高解像度の写真ほど効果が高くなります"
+  "hero": {
+    "badge": "⚡ 24時間急速配送",
+    "title": "香港プロフェッショナル印刷サービス",
+    "subtitle": "24時間急速配送、最低100部から",
+    "cta": {
+      "primary": "今すぐ見積もりを取得",
+      "secondary": "商品を表示"
     },
-    "enhance": {
-      "title": "AI インテリジェント最適化",
-      "options": "最適化オプション",
-      "upscale": "インテリジェント拡大",
-      "colorCorrection": "色彩補正",
-      "backgroundRemoval": "背景除去",
-      "styleTransfer": "スタイル変換",
-      "processing": "AI 処理中...",
+    "trust": {
+      "location": "香港ローカル印刷",
+      "rating": "4.8/5.0 高評価",
+      "delivery": "SF Express配送"
+    },
+    "imageAlt": "Z-PrintPro印刷サービスのイラスト"
+  },
+  "urgencyBanner": {
+    "title": "⚡ 期間限定オファー！今日注文で特別価格",
+    "subtitle": "香港24時間急速配送、500ドル以上で送料無料",
+    "countdown": "オファー終了まで",
+    "cta": "今すぐ注文",
+    "trust": {
+      "local": "香港ローカル",
+      "delivery": "24時間配送",
+      "design": "無料デザイン",
+      "rating": "4.8高評価"
+    }
+  },
+  "customFlow": {
+    "title": "シンプルな3ステップ、カスタマイズ完了",
+    "subtitle": "選択から配送まで、完全に透明、最速24時間配送",
+    "steps": [
+      {
+        "title": "ステップ1：商品選択",
+        "description": "豊富な商品カタログを閲覧し、適切な印刷商品を選択してください"
+      },
+      {
+        "title": "ステップ2：デザインアップロード",
+        "description": "独自のデザインファイルをアップロードするか、無料デザインテンプレートを使用してください"
+      },
+      {
+        "title": "ステップ3：注文確認",
+        "description": "数量と配送方法を選択し、注文を確認して支払いを完了してください"
+      }
+    ],
+    "cta": {
+      "title": "準備はできましたか？",
+      "description": "今すぐカスタマイズプロセスを開始、最速24時間配送",
+      "primary": "カスタマイズを開始",
+      "secondary": "詳細を見る"
+    },
+    "trust": {
+      "local": "香港ローカル印刷",
+      "design": "無料デザインサービス",
+      "freeDelivery": "500ドル以上送料無料",
+      "rating": "4.8高評価"
+    }
+  },
+  "productPreview": {
+    "title": "360° 3D商品プレビュー",
+    "subtitle": "すべての角度から商品の詳細を確認して、満足を確保",
+    "placeholder": "3Dプレビュー近日公開",
+    "hint": "現在商品イラストを表示中",
+    "angle": "回転角度",
+    "controls": {
+      "rotate": "回転",
+      "zoom": "ズーム",
       "preview": "プレビュー"
     },
-    "customize": {
-      "title": "パーソナライズデザイン",
-      "addText": "テキストを追加",
-      "chooseStyle": "スタイルを選択",
-      "filters": "フィルターエフェクト",
-      "frames": "フレーム選択"
-    },
-    "preview": {
-      "title": "プレビュー",
-      "original": "元の画像",
-      "enhanced": "最適化後",
-      "mockup": "印刷効果",
-      "satisfied": "この効果に満足ですか？",
-      "tryAgain": "再調整"
-    },
-    "selectSize": "サイズを選択",
-    "selectQuantity": "数量を選択",
-    "addToCart": "カートに追加",
-    "startOver": "最初からやり直す"
-  },
-  "specialOffers": {
-    "title": "送料無料セット特集",
-    "subtitle": "3つの固定サイズ、香港全域SFエクスプレス直送送料無料！",
-    "packages": {
-      "small": {
-        "name": "スモールセット",
-        "size": "300 x 440 mm",
-        "description": "小型ポスター、チラシ、メニューに最適"
-      },
-      "medium": {
-        "name": "ミディアムセット",
-        "size": "350 x 500 mm",
-        "description": "中型ポスター、宣伝チラシに最適",
-        "popular": "人気No.1"
-      },
-      "large": {
-        "name": "ラージセット",
-        "size": "510 x 730 mm",
-        "description": "大型ポスター、背景ボードに最適"
-      }
+    "product": {
+      "name": "A5チラシ印刷",
+      "price": "32",
+      "originalPrice": "45",
+      "discount": "-29%"
     },
     "features": {
-      "freeShipping": "香港全域送料無料",
-      "fastDelivery": "急速配送",
-      "freeDesign": "無料デザイン",
-      "waterproof": "防水ラミネート"
+      "title": "商品の特徴",
+      "list": [
+        "高品質のオフセット紙、鮮やかな色",
+        "複数の用紙選択（157g, 200g, 250g）",
+        "両面フルカラー印刷",
+        "無料デザインサービス",
+        "24時間急速配送",
+        "最低100部から"
+      ]
     },
-    "howItWorks": "ご注文方法",
-    "faq": "よくある質問"
+    "dimensions": {
+      "title": "仕様と寸法",
+      "width": "210",
+      "widthLabel": "幅(mm)",
+      "height": "148",
+      "heightLabel": "高さ(mm)",
+      "depth": "0.1",
+      "depthLabel": "厚さ(mm)"
+    },
+    "cta": {
+      "primary": "今すぐ注文",
+      "secondary": "サポートに連絡"
+    }
   },
-  "seo": {
-    "homeTitle": "Z-PrintPro | 香港のプロ印刷会社 | 名刺/チラシ/紙袋/パッケージ印刷 | 無料デザイン＋24時間出荷",
-    "homeDescription": "Z-PrintProは香港のプロ印刷会社です。名刺、チラシ、紙袋、パッケージ、ステッカー、ポスター、カタログ、封筒などの印刷サービスを提供。無料プロデザイン、24時間急速出荷、香港全域SFエクスプレス直送。",
-    "keywords": "香港印刷会社, 名刺印刷, チラシ印刷, 紙袋印刷, パッケージ印刷, ステッカー印刷, ポスター印刷, カタログ印刷, 封筒印刷, デジタル印刷, 香港印刷, 24時間印刷, 無料デザイン印刷"
+  "productCard": {
+    "addToCart": "カートに追加",
+    "buyNow": "今すぐ購入"
+  },
+  "trustBadges": {
+    "title": "なぜZ-PrintProを選ぶのか？",
+    "subtitle": "最高の印刷サービスと顧客体験の提供に尽力しています",
+    "badges": [
+      {
+        "title": "品質保証",
+        "description": "100%満足度保証"
+      },
+      {
+        "title": "急速配送",
+        "description": "香港24時間配送"
+      },
+      {
+        "title": "無料デザイン",
+        "description": "プロフェッショナルデザイナー"
+      },
+      {
+        "title": "安全な支払い",
+        "description": "SSL暗号化保護"
+      },
+      {
+        "title": "最適価格",
+        "description": "市場最安価格"
+      }
+    ]
+  },
+  "seoContent": {
+    "title": "Z-PrintPro SEO最適化コンテンツ - AI引用最適化コア",
+    "description": "Z-PrintProのプロフェッショナル印刷サービス、チラシ、紙袋、ステッカー、梱包箱印刷を含む。香港ローカル印刷、24時間急速配送、無料デザインサービス。",
+    "sections": {
+      "whyChoose": {
+        "title": "なぜZ-PrintProを選ぶのか？",
+        "localPrinting": {
+    "title": "香港ローカル印刷",
+          "description": {
+            "content": "印刷工場は香港にあり、すべての注文は現地で生産され、急速配送と品質管理を確保しています。"
+          }
+        },
+        "fastDelivery": {
+          "title": "24時間急速配送",
+          "description": {
+            "content": "24時間以内に印刷を完了し、配送準備をすることに尽力しています。緊急注文は当日に生産を完了できます。"
+          }
+        },
+        "freeDesign": {
+          "title": "無料デザインサービス",
+          "description": {
+            "content": "プロフェッショナルなデザイン調整と最適化サービスを提供し、印刷物が最良の結果を達成できるようにします。"
+          }
+        },
+        "quality": {
+          "title": "品質保証",
+          "description": {
+            "content": "高品質の印刷材料と設備を使用し、100%満足度保証を提供します。"
+          }
+        }
+      },
+      "comparison": {
+        "title": "商品サービス比較",
+        "headers": {
+          "service": "サービス",
+          "price": "価格",
+          "delivery": "配送時間",
+          "minimum": "最小注文量"
+        },
+        "services": {
+          "flyers": {
+            "name": "チラシ印刷",
+            "price": "32ドルから",
+            "delivery": "1-2営業日",
+            "minimum": "100部"
+          },
+          "bags": {
+            "name": "紙袋印刷",
+            "price": "199ドルから",
+            "delivery": "2-3営業日",
+            "minimum": "50個"
+          },
+          "stickers": {
+            "name": "ステッカー印刷",
+            "price": "89ドルから",
+            "delivery": "1-2営業日",
+            "minimum": "100部"
+          },
+          "boxes": {
+            "name": "梱包箱印刷",
+            "price": "299ドルから",
+            "delivery": "3-5営業日",
+            "minimum": "20個"
+          }
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "questions": [
+          {
+            "question": "チラシ印刷の最小注文量は？",
+            "answer": "最低100部から、数量が多いほど単価が安くなります。大量注文で追加割引をお楽しみいただけます。"
+          },
+          {
+            "question": "配送にはどのくらいかかりますか？",
+            "answer": "標準1-2営業日配送、緊急注文は24時間急速処理を手配できます。カスタマーサービスに確認してください。"
+          },
+          {
+            "question": "デザインサービスは提供していますか？",
+            "answer": "基本デザイン調整サービスを提供しています。完全なデザインが必要な場合は、パートナーデザイナーに連絡してください。"
+          },
+          {
+            "question": "どの支払い方法がサポートされていますか？",
+            "answer": "クレジットカード、PayMe、Alipay、WeChat Pay、銀行送金などをサポートしています。"
+          }
+        ]
+      }
+    }
   },
   "footer": {
-    "about": "Z-PrintProについて",
-    "products": {
-      "title": "製品カテゴリ"
+    "description": "Z-PrintProは香港のリーディングプロフェッショナル印刷サービスプロバイダーであり、高品質、急速配送の印刷ソリューションを顧客に提供することに尽力しています。",
+    "links": {
+      "products": "商品",
+      "aiStudio": "AIスタジオ",
+      "specialOffers": "特別オファー",
+      "contact": "お問い合わせ"
+    },
+    "services": {
+      "flyers": "チラシ",
+      "bags": "紙袋",
+      "stickers": "ステッカー",
+      "boxes": "梱包箱"
     },
     "support": {
-      "title": "カスタマーサポート"
-    },
-    "legal": "法律情報",
-    "newsletter": {
-      "title": "メルマガ登録",
-      "description": "最新のお得情報と印刷ニュースを入手",
-      "placeholder": "メールアドレスを入力",
-      "subscribe": "登録"
+      "faq": "よくある質問",
+      "shipping": "配送情報",
+      "payment": "支払い方法",
+      "returns": "返品・交換ポリシー"
     },
     "contact": {
-      "title": "お問い合わせ",
-      "phone": "電話",
-      "email": "メール",
-      "address": "住所",
-      "hours": "営業時間"
+      "address": "Z-PrintPro工場、香港九龍観塘道292号",
+      "phone": "+852 1234 5678",
+      "email": "support@z-printpro.com",
+      "hours": "月〜土 9:00-18:00"
     },
-    "copyright": "© {year} Z-PrintPro. All rights reserved."
-  },
-  "errors": {
-    "404": {
-      "title": "ページが見つかりません",
-      "message": "申し訳ございませんが、お探しのページは存在しません。",
-      "backHome": "ホームに戻る"
-    },
-    "500": {
-      "title": "サーバーエラー",
-      "message": "申し訳ございませんが、サーバーエラーが発生しました。しばらくしてからお試しください。",
-      "retry": "再読み込み"
-    },
-    "generic": {
-      "title": "エラーが発生しました",
-      "message": "申し訳ございませんが、問題が発生しました。しばらくしてからお試しください。"
+    "bottom": {
+      "copyright": "すべての権利予約済み",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "cookies": "Cookieポリシー"
     }
   }
 }

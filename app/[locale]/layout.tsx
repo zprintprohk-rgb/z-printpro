@@ -5,6 +5,10 @@ import { locales, type Locale } from '@/i18n';
 import { Metadata } from 'next';
 import { Inter, Noto_Sans_HK } from 'next/font/google';
 import '@/styles/globals.css';
+import { LocalBusinessSchema } from '@/components/seo/LocalBusinessSchema';
+import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema';
+import { FAQSchema } from '@/components/seo/FAQSchema';
+import { ProductSchema } from '@/components/seo/ProductSchema';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -151,46 +155,17 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@graph': [
-                {
-                  '@type': 'LocalBusiness',
-                  '@id': `${baseUrl}/#localbusiness`,
-                  name: 'Z-PrintPro',
-                  alternateName: isHK ? ['智印港', 'Z-PrintPro Hong Kong'] : ['Z-PrintPro Hong Kong', '智印港'],
-                  url: `${baseUrl}/${locale}`,
-                  telephone: '+852-0000-0000',
-                  email: 'info@z-printpro.com',
-                  priceRange: '$$',
-                  address: {
-                    '@type': 'PostalAddress',
-                    addressCountry: 'HK',
-                    addressLocality: 'Hong Kong',
-                  },
-                  geo: {
-                    '@type': 'GeoCoordinates',
-                    latitude: 22.3193,
-                    longitude: 114.1694
-                  },
-                  areaServed: {
-                    '@type': 'City',
-                    name: 'Hong Kong'
-                  },
-                  aggregateRating: {
-                    '@type': 'AggregateRating',
-                    ratingValue: '4.9',
-                    reviewCount: '328',
-                    bestRating: '5'
-                  }
-                }
-              ]
-            })
-          }}
-        />
+        {/* LocalBusiness Schema - Integrated from components/seo/LocalBusinessSchema */}
+        <LocalBusinessSchema locale={locale} />
+        
+        {/* Breadcrumb Schema - Will be added in individual pages */}
+        {/* <BreadcrumbSchema locale={locale} items={[...]} /> */}
+        
+        {/* FAQ Schema - Will be added in FAQ page */}
+        {/* <FAQSchema locale={locale} faqs={[...]} /> */}
+        
+        {/* Product Schema - Will be added in product pages */}
+        {/* <ProductSchema locale={locale} product={...} /> */}
       </head>
       <body className={`${isHK ? notoSansHK.className : inter.className} antialiased`} style={{ backgroundColor: 'hsl(210 20% 98%)' }}>
         <NextIntlClientProvider messages={messages} locale={locale}>
