@@ -9,7 +9,11 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "analyze": "cross-env ANALYZE=true next build"
+    "analyze": "cross-env ANALYZE=true next build",
+    "pages:build": "next build",
+    "pages:dev": "next dev",
+    "pages:deploy": "npm run build && wrangler pages deploy",
+    "pages:preview": "npm run build && wrangler pages dev"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",

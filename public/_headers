@@ -1,0 +1,75 @@
+# Cloudflare Pages Headers 配置
+# SEO + GEO 优化配置
+
+# 全局安全 headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+# SEO：DNS 预解析
+/*
+  X-DNS-Prefetch-Control: on
+
+# SEO：Accept-CH（Client Hints）
+/*
+  Accept-CH: DPR, Width, Viewport-Width
+
+# 缓存策略 - 静态资源
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_next/image/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# 缓存策略 - 图片和字体
+*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+*.avif
+  Cache-Control: public, max-age=31536000, immutable
+
+*.gif
+  Cache-Control: public, max-age=31536000, immutable
+
+*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.woff
+  Cache-Control: public, max-age=31536000, immutable
+
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+
+*.eot
+  Cache-Control: public, max-age=31536000, immutable
+
+# 缓存策略 - HTML 文件
+*.html
+  Cache-Control: public, max-age=86400, stale-while-revalidate=43200
+
+# 缓存策略 - JavaScript 和 CSS
+*.js
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+*.css
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# 缓存策略 - API 响应
+/api/*
+  Cache-Control: public, s-maxage=60, stale-while-revalidate=120

@@ -1,11 +1,55 @@
-# Netlify 備用重定向規則（與 netlify.toml 雙重保險）
+# Cloudflare Pages Redirects 配置
+# SEO + 多语言路由优化
 
-# 國際化路由支持
-/zh-hk/*  /zh-hk/index.html  200
-/en/*     /en/index.html     200
+# 主页重定向到默认语言（香港）
+/ /zh-hk 301
 
-# API 路由（不干擾 Functions）
-/api/*    /.netlify/functions/:splat  200
+# 产品页面重定向（SEO 友好 URL）
+/zh-hk/product/* /zh-hk/products/$1 301
+/en/product/* /en/products/$1 301
+/ja/product/* /ja/products/$1 301
 
-# SPA 回退（所有路由到 index.html）
-/*        /index.html        200
+# 分类页面重定向
+/zh-hk/category/* /zh-hk/category/$1/ 301
+/en/category/* /en/category/$1/ 301
+/ja/category/* /ja/category/$1/ 301
+
+# AI Studio 重定向（可选）
+/ai-studio /zh-hk/ai-studio 301
+/en/ai-studio /en/ai-studio 301
+/ja/ai-studio /ja/ai-studio 301
+
+# 包邮套餐重定向
+/special-offers /zh-hk/special-offers 301
+/en/special-offers /en/special-offers 301
+/ja/special-offers /ja/special-offers 301
+
+# 常见页面重定向
+/contact /zh-hk/contact 301
+/en/contact /en/contact 301
+/ja/contact /ja/contact 301
+
+/faq /zh-hk/faq 301
+/en/faq /en/faq 301
+/ja/faq /ja/faq 301
+
+/shipping /zh-hk/shipping 301
+/en/shipping /en/shipping 301
+/ja/shipping /ja/shipping 301
+
+/payment /zh-hk/payment 301
+/en/payment /en/payment 301
+/ja/payment /ja/payment 301
+
+/design-guide /zh-hk/design-guide 301
+/en/design-guide /en/design-guide 301
+/ja/design-guide /ja/design-guide 301
+
+# 账户和购物车重定向
+/account /zh-hk/account 301
+/en/account /en/account 301
+/ja/account /ja/account 301
+
+/cart /zh-hk/cart 301
+/en/cart /en/cart 301
+/ja/cart /ja/cart 301

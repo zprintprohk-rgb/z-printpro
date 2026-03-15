@@ -29,42 +29,100 @@ export async function generateMetadata({
 }: Props): Promise<Metadata> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://z-printpro.com';
   const isHK = locale === 'zh-hk';
+  const isEn = locale === 'en';
+  const isJa = locale === 'ja';
   
   return {
     metadataBase: new URL(baseUrl),
     title: {
       template: '%s | Z-PrintPro Hong Kong',
       default: isHK 
-        ? '智印港 | 香港專業印刷公司 | 名片/傳單/紙袋/包裝盒 | 免費設計＋24小時出貨'
-        : 'Z-PrintPro | Professional Printing Hong Kong | Business Cards/Flyers/Bags/Boxes | Free Design + 24H Delivery'
+        ? '智印港 | 香港專業印刷公司 | 宣傳單｜紙袋印刷｜貼紙印刷｜包裝盒定制 | 免費設計＋24小時出貨'
+        : isJa
+        ? 'Z-PrintPro | 香港プロ印刷会社 | 宣伝票｜紙袋印刷｜ステッカー印刷｜梱包印刷 | 無料設計＋24時間出荷'
+        : 'Z-PrintPro | Hong Kong Printing | Flyers｜Paper Bags｜Stickers｜Custom Boxes | Free Design + 24H Delivery'
     },
     description: isHK
-      ? '香港本地專業印刷公司，提供名片、傳單、紙袋、包裝盒、貼紙、海報等印刷服務。免費專業設計，24小時急速出貨，全港順豐免費送貨。'
-      : 'Hong Kong local professional printing company offering business cards, flyers, paper bags, packaging boxes, stickers, posters. Free professional design, 24-hour express delivery, free SF Express shipping.',
-    keywords: isHK 
-      ? ['香港印刷公司', '名片印刷', '傳單印刷', '紙袋印刷', '包裝盒印刷', '即日印刷', '數碼印刷', '灣仔印刷', '中環印刷', '免費設計', '24小時出貨']
-      : ['Hong Kong printing company', 'business card printing', 'flyer printing', 'paper bag printing', 'packaging printing', 'same day printing', 'digital printing', 'Wan Chai printing', 'Central printing', 'free design', '24h delivery'],
+      ? '香港本地專業印刷公司，專注於宣傳單張、紙袋印刷、貼紙印刷、包裝盒定制。免費專業設計，24小時急速出貨，全港順豐免費送貨。智印港提供高品質印刷服務，滿足您的商業印刷需求。'
+      : isJa
+        ? '香港のローカルプロ印刷会社。チラシ印刷、紙袋印刷、ステッカー印刷、梱包印刷に特化。無料でプロな設計、24時間急速出荷、全香港SF Express送料無料。'
+        : 'Hong Kong local professional printing company specializing in flyers, paper bags, stickers, and custom packaging boxes. Free professional design, 24-hour express delivery, free SF Express shipping across Hong Kong.',
+    keywords: isHK
+      ? ['香港印刷公司', '宣傳單印刷', '紙袋印刷', '貼紙印刷', '包裝盒定制', '即日印刷', '數碼印刷', '灣仔印刷', '中環印刷', '免費設計', '24小時出貨', '智印港', '香港印刷服務']
+      : isJa
+        ? ['香港印刷会社', 'チラシ印刷', '紙袋印刷', 'ステッカー印刷', '梱包印刷', '即日印刷', 'デジタル印刷', '灣仔印刷', '中環印刷', '無料設計', '24時間出荷', 'Z-PrintPro', '香港印刷サービス']
+        : ['Hong Kong printing company', 'flyer printing', 'paper bag printing', 'sticker printing', 'custom boxes', 'same day printing', 'digital printing', 'Wan Chai printing', 'Central printing', 'free design', '24h delivery', 'Z-PrintPro', 'Hong Kong printing services'],
     alternates: {
       canonical: `${baseUrl}/${locale}`,
       languages: {
         'zh-HK': `${baseUrl}/zh-hk`,
         'en': `${baseUrl}/en`,
+        'ja': `${baseUrl}/ja`,
         'x-default': `${baseUrl}/zh-hk`
       }
     },
     openGraph: {
       type: 'website',
-      locale: isHK ? 'zh_HK' : 'en_US',
-      siteName: 'Z-PrintPro',
+      locale: isHK ? 'zh_HK' : (isJa ? 'ja_JP' : 'en_US'),
+      siteName: isHK ? '智印港' : 'Z-PrintPro',
       url: `${baseUrl}/${locale}`,
+      title: isHK 
+        ? '智印港 | 香港專業印刷公司'
+        : isJa
+        ? 'Z-PrintPro | 香港プロ印刷会社'
+        : 'Z-PrintPro | Hong Kong Professional Printing',
+      description: isHK
+        ? '香港本地專業印刷公司，專注於宣傳單張、紙袋印刷、貼紙印刷、包裝盒定制。免費專業設計，24小時急速出貨。'
+        : isJa
+        ? '香港のローカルプロ印刷会社。チラシ印刷、紙袋印刷、ステッカー印刷、梱包印刷に特化。'
+        : 'Hong Kong local professional printing company specializing in flyers, paper bags, stickers, and custom packaging boxes.',
+      images: [
+        {
+          url: `${baseUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: isHK ? '智印港 Logo' : 'Z-PrintPro Logo',
+        }
+      ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: isHK 
+        ? '智印港 | 香港專業印刷公司'
+        : isJa
+        ? 'Z-PrintPro | 香港プロ印刷会社'
+        : 'Z-PrintPro | Hong Kong Professional Printing',
+      description: isHK
+        ? '香港本地專業印刷公司，專注於宣傳單張、紙袋印刷、貼紙印刷、包裝盒定制。免費專業設計，24小時急速出貨。'
+        : isJa
+        ? '香港のローカルプロ印刷会社。チラシ印刷、紙袋印刷、ステッカー印刷、梱包印刷に特化。'
+        : 'Hong Kong local professional printing company specializing in flyers, paper bags, stickers, and custom packaging boxes.',
+      images: [
+        {
+          url: `${baseUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: isHK ? '智印港 Logo' : 'Z-PrintPro Logo',
+        }
+      ]
     },
     robots: {
       index: true,
       follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
     },
     other: {
       'geo.region': 'HK',
       'geo.placename': 'Hong Kong',
+      'geo.position': '22.3193;114.1694',
+      'ICBM': 'Hong Kong',
+      'DC.Title': isHK ? '智印港 - 香港專業印刷公司' : 'Z-PrintPro - Hong Kong Professional Printing',
+      'DC.Description': isHK
+        ? '香港本地專業印刷公司，專注於宣傳單張、紙袋印刷、貼紙印刷、包裝盒定制。免費專業設計，24小時急速出貨。'
+        : 'Hong Kong local professional printing company specializing in flyers, paper bags, stickers, and custom packaging boxes.',
     }
   };
 }
@@ -80,11 +138,12 @@ export default async function LocaleLayout({
   
   const messages = await getMessages();
   const isHK = locale === 'zh-hk';
+  const isJa = locale === 'ja';
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://z-printpro.com';
 
   return (
     <html 
-      lang={isHK ? 'zh-HK' : 'en'} 
+      lang={isHK ? 'zh-HK' : (isJa ? 'ja' : 'en')} 
       className={`${inter.variable} ${notoSansHK.variable}`}
       suppressHydrationWarning
     >
